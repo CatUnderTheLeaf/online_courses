@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- The marker publisher node -->
+  <node name="publish_marker" type="publish_markers" pkg="add_markers" output="screen">    
+  </node>
+
+ <!-- The pick_objects node -->
+  <node name="pick_markerobjects" type="pick_markerobjects" pkg="pick_objects" output="screen">
+  </node>
+
+</launch>

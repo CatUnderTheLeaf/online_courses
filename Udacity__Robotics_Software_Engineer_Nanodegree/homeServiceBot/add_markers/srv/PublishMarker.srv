@@ -1,0 +1,4 @@
+geometry_msgs/PoseStamped marker_pose
+int32 action
+---
+string msg_feedback

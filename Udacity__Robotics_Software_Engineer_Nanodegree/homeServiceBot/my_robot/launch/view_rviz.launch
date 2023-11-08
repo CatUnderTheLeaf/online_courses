@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <arg name="config_file" default="$(find my_robot)/rvizConfig/navigation.rviz"/>
+   <!--launch rviz-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg config_file)" respawn="false"/>
+
+</launch>
