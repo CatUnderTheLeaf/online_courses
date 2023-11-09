@@ -43,5 +43,5 @@ Now, wait for the program to generate the map!
 
 ### Generated Map
 
-![alt text](Images/Map.png)
+![alt text](Images/map.png)
 
